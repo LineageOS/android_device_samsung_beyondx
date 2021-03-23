@@ -17,7 +17,7 @@
 ### PLATFORM
 $(call inherit-product, device/samsung/exynos9820-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
-#$(call inherit-product, vendor/samsung/beyondx/beyondx-vendor.mk)
+$(call inherit-product, vendor/samsung/beyondx/beyondx-vendor.mk)
 
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
