@@ -33,7 +33,7 @@
  * HEIGHT = 3040
  * Y = ???
  */
-#define FOD_SENSOR_Y        2500
+#define FOD_SENSOR_Y        2200
 
 /* Sensor rectangle size  */
 #define FOD_SENSOR_SIZE     350
