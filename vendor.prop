@@ -1,2 +1,5 @@
 ### RIL
 ro.telephony.default_network=26,9
+ro.multisim.simslotcount=1
+ro.vendor.multisim.simslotcount=1
+persist.radio.multisim.config=ss
