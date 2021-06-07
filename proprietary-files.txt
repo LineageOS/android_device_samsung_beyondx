@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G977BXXU7FUE3, unless pinned
+# Proprietary files - from Samsung package version G977BXXS8FUE5, unless pinned
 
 ### AUDIO
 vendor/etc/floating_feature.xml
@@ -25,11 +25,12 @@ vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ### CAMERA
-# Camera - from beyond2lte - G975FXXUAFUE3
-vendor/lib/libexynoscamera3.so|d302fdb8378e0acd943d449698f931b3dca2db02
-vendor/lib64/libexynoscamera3.so|ada2aee1dbcec040b4ffcac3c012bcb42f994b56
-vendor/lib/hw/camera.exynos9820.so|52f0c959868d93bc263d9bbf702033d72b64ffba
-vendor/lib64/hw/camera.exynos9820.so|3e8f978c584e60928b69f63a774a2eb9e3b2dd92
+vendor/lib/hw/camera.exynos9820.so
+vendor/lib64/hw/camera.exynos9820.so
+
+### CAMERA_DEPENDENCIES
+vendor/lib/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
 
 ### GPS/GNSS
 vendor/lib64/libwrappergps.so
