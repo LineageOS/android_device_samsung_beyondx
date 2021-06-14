@@ -14,31 +14,30 @@
 # limitations under the License.
 #
 
+## Inherit from generic products, most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-# Product API level
+
+## Product API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inscreen Fingerprint HAL
+## Inscreen Fingerprint HAL
 TARGET_HAVE_FOD := true
 
-# Inherit device configuration
+## Inherit from beyondx device
 $(call inherit-product, device/samsung/beyondx/device.mk)
 
-### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
+## Boot Animation
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
-# vendor/lineage/config/common.mk
 
-### LINEAGE
+## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Enable updating of APEXes
+## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-## Device identifier. This must come after all inclusions
+## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_beyondx
 PRODUCT_DEVICE := beyondx
 PRODUCT_BRAND := samsung
@@ -47,11 +46,8 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_PDA_MODEL := G977B
 PRODUCT_PDA_MODEL_VERSION := XXS8FUE5
 PRODUCT_PDA_VERSION := $(PRODUCT_PDA_MODEL)$(PRODUCT_PDA_MODEL_VERSION)
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.PDA=$(PRODUCT_PDA_VERSION)
-
-ifneq ($(LINEAGE_DEV_CERTIFICATE),)
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LINEAGE_DEV_CERTIFICATE)
-endif
