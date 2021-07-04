@@ -38,8 +38,12 @@ vendor/lib/hw/camera.exynos9820.so
 vendor/lib64/hw/camera.exynos9820.so
 
 ## Camera dependencies
+vendor/lib/libTOFProc_interface.so
 vendor/lib/libexynoscamera3.so
+vendor/lib/libiu456_datapath_processor.so
+vendor/lib64/libTOFProc_interface.so
 vendor/lib64/libexynoscamera3.so
+vendor/lib64/libiu456_datapath_processor.so
 
 ## Codecs
 vendor/etc/media_codecs_performance.xml
