@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G977BXXS8FUE5, unless pinned
+# Proprietary files - from Samsung package version G977BXXS8FUF3, unless pinned
 
 ## Audio
 vendor/etc/floating_feature.xml
