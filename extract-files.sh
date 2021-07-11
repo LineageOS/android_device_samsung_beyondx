@@ -11,6 +11,9 @@ function blob_fixup() {
         vendor/lib*/libiu456_datapath_processor.so)
             "${PATCHELF}" --replace-needed libc++.so libc++-v28.so "${2}"
             ;;
+        vendor/lib*/libsec-ril.so)
+            "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
+            ;;
     esac
 }
 
