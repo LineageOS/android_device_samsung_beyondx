@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G977BXXSBGVA9, unless pinned
+# Proprietary files - from Samsung package version G977BXXUBHVC6, unless pinned
 
 ## Audio
 vendor/etc/dolby/dax-default.xml
@@ -34,16 +34,14 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
-## Camera
--vendor/lib/hw/camera.exynos9820.so
--vendor/lib64/hw/camera.exynos9820.so
+## Camera - from beyondx - G977BXXSBGVA9
+-vendor/lib64/hw/camera.exynos9820.so|70b3b988b1150ce19c2c85b17c5975135b26fae5
+-vendor/lib64/libexynoscamera3.so|607a78931c82a84ff73987150368b76a491248dc
 
 ## Camera dependencies
 -vendor/lib/libTOFProc_interface.so
--vendor/lib/libexynoscamera3.so
 -vendor/lib/libiu456_datapath_processor.so
 -vendor/lib64/libTOFProc_interface.so
--vendor/lib64/libexynoscamera3.so
 -vendor/lib64/libiu456_datapath_processor.so
 
 # libc++ from prebuilts/vndk/v28 - android-12.0.0_r18
