@@ -1,2 +1,5 @@
+## Bluetooth
+bluetooth.device.default_name=Galaxy S10 5G
+
 ## RIL
 ro.telephony.default_network=26,9
