@@ -43,10 +43,6 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 -vendor/lib64/libTOFProc_interface.so
 -vendor/lib64/libiu456_datapath_processor.so
 
-# libc++ from prebuilts/vndk/v28 - android-12.0.0_r18
--vendor/lib/libc++-v28.so|c77ce1010570c92687079ab3a287fbfa4f081be2
--vendor/lib64/libc++-v28.so|373888fd449538b11083d3597775a32e02395339
-
 ## Codecs
 vendor/etc/media_codecs_performance.xml
 
