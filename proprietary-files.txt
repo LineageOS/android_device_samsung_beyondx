@@ -43,6 +43,11 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 -vendor/lib64/libTOFProc_interface.so
 -vendor/lib64/libiu456_datapath_processor.so
 
+## Camera Firmware
+vendor/firmware/fimc_is_fw_mcu.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+
 ## Codecs
 vendor/etc/media_codecs_performance.xml
 
@@ -63,7 +68,6 @@ vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
 vendor/firmware/dnn.bin
 vendor/firmware/dual_cal_wide_swide.bin
 vendor/firmware/dual_cal_wide_tele.bin
-vendor/firmware/fimc_is_fw_mcu.bin
 vendor/firmware/fmsb.bin
 vendor/firmware/rxse.bin
 vendor/firmware/setfile_2l4.bin
@@ -103,10 +107,6 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
-
-## OMX Firmware
-vendor/firmware/fimc_is_lib.bin
-vendor/firmware/fimc_is_rta.bin
 
 ## RIL
 vendor/etc/plmn_se13.bin
