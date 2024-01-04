@@ -55,7 +55,4 @@
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
     <integer name="config_longPressOnMenuBehavior">3</integer>
-
-    <!-- Whether device has a notch -->
-    <bool name="config_haveNotch">true</bool>
 </resources>
