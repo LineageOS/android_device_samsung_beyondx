@@ -1,0 +1,33 @@
+# Firmware for model SM-G977B - from Samsung package version G977BXXSDHWA3
+
+cm.bin_SM-G977B
+dqmdbg.img_SM-G977B
+keystorage.bin_SM-G977B
+modem.bin_SM-G977B
+modem_5g.bin_SM-G977B
+modem_debug.bin_SM-G977B
+modem_debug_5g.bin_SM-G977B
+param.bin_SM-G977B
+sboot.bin_SM-G977B
+uh.bin_SM-G977B
+up_param.bin_SM-G977B
+
+# Firmware for model SM-G977N - from Samsung package version G977NKSU6HWA1
+
+cm.bin_SM-G977N
+dqmdbg.img_SM-G977N
+keystorage.bin_SM-G977N
+modem.bin_SM-G977N
+modem_5g.bin_SM-G977N
+modem_debug.bin_SM-G977N
+modem_debug_5g.bin_SM-G977N
+param.bin_SM-G977N
+sboot.bin_SM-G977N
+uh.bin_SM-G977N
+up_param.bin_SM-G977N
+
+# File containing the supported models, one per line
+models
+# Files containing Samsung package version for supported models
+version_SM-G977B
+version_SM-G977N
