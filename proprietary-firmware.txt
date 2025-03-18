@@ -1,33 +1,33 @@
 # Firmware for model SM-G977B - from Samsung package version G977BXXSEHWC2
 
-cm.bin_SM-G977B
-dqmdbg.img_SM-G977B
-keystorage.bin_SM-G977B
-modem.bin_SM-G977B
-modem_5g.bin_SM-G977B
-modem_debug.bin_SM-G977B
-modem_debug_5g.bin_SM-G977B
-param.bin_SM-G977B
-sboot.bin_SM-G977B
-uh.bin_SM-G977B
-up_param.bin_SM-G977B
+cm.bin_SM-G977B|6a1e54f519a871338ce66f57591168ad12c28419
+dqmdbg.img_SM-G977B|ea5c376a72a2218286b57195284251be6886747c
+keystorage.bin_SM-G977B|ec3acf045ddbd67a8f9b727f3aafdeb93aef68fa
+modem.bin_SM-G977B|9b0e67143485e285235b542af4861cfdfb2fa6c8
+modem_5g.bin_SM-G977B|d182f8dddd4946cce3885632b504523775a5ef54
+modem_debug.bin_SM-G977B|b301b5e558f292174144a74f8a94a25ba6e6f953
+modem_debug_5g.bin_SM-G977B|12f3a7df619f34d923c0b7bf8e95e7e91d19a672
+param.bin_SM-G977B|9bde590fe60cab5e1d7594c5632ec0a1f3ec31cc
+sboot.bin_SM-G977B|678f038c374a1deb463764ccaed357502b5844a8
+uh.bin_SM-G977B|eabdd7a5ce613a93521ceeca7a3663b554ef3128
+up_param.bin_SM-G977B|3192626a699bbb10cbc9dda1903def21309a8dd6
 
 # Firmware for model SM-G977N - from Samsung package version G977NKSU6HWD3
 
-cm.bin_SM-G977N
-dqmdbg.img_SM-G977N
-keystorage.bin_SM-G977N
-modem.bin_SM-G977N
-modem_5g.bin_SM-G977N
-modem_debug.bin_SM-G977N
-modem_debug_5g.bin_SM-G977N
-param.bin_SM-G977N
-sboot.bin_SM-G977N
-uh.bin_SM-G977N
-up_param.bin_SM-G977N
+cm.bin_SM-G977N|c9decc8bcf27583c049c06272a2415aef0fbfd80
+dqmdbg.img_SM-G977N|c94f62e7d29e1e8febf6ed212ffdc9f295fde406
+keystorage.bin_SM-G977N|82ea8462af9811dc8dfdd395876d11281b7d5236
+modem.bin_SM-G977N|5694589c34489df095c116473e98941e69e0a305
+modem_5g.bin_SM-G977N|415fe0bd303c44af85c1279c3032aca004ac0580
+modem_debug.bin_SM-G977N|ec0bd533c6bf8366ac139923bf0d597695d4f076
+modem_debug_5g.bin_SM-G977N|19be25a2f62c52a3158a773ef44cb5a2d0963ef9
+param.bin_SM-G977N|2e9b18ec8c0ffcf6a47d939f7ff2263d318cd678
+sboot.bin_SM-G977N|6a29c09387555b6b82d8e410d4bdf7c94c175c1e
+uh.bin_SM-G977N|0c6b4ca515d93e236c09b02f30afcdda8972fa90
+up_param.bin_SM-G977N|c942b701f5e5fc6331d241380a60780a9df77e8b
 
 # File containing the supported models, one per line
-models
+models|6e52b708d06b9525eef96a6522b48584e837ef75
 # Files containing Samsung package version for supported models
-version_SM-G977B
-version_SM-G977N
+version_SM-G977B|1faa4b909b21b39b7d2393c4bf422adb6c853493
+version_SM-G977N|9c060c51755838028fdb865a819041b206c88a46
