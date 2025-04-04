@@ -26,7 +26,7 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera - from beyondx - G977BXXSBGVA9
 vendor/lib64/hw/camera.exynos9820.so|70b3b988b1150ce19c2c85b17c5975135b26fae5
-vendor/lib64/libexynoscamera3.so|607a78931c82a84ff73987150368b76a491248dc|607a78931c82a84ff73987150368b76a491248dc
+vendor/lib64/libexynoscamera3.so|b014e244d39d7dc6e9cb9d355200af980a81fb6f|b014e244d39d7dc6e9cb9d355200af980a81fb6f
 
 ## Camera dependencies
 vendor/lib64/libTOFProc_interface.so
